@@ -3,10 +3,19 @@ body {
     font-size: 20px;
     padding: 0 20px 30px 0;
     line-height: 1.4;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 #container{
     height: 200px;
     display: flex;
     align-items: flex-end;
+}
+
+.bar{
+    width:10px;
+    background-color: black;
+    margin: 1px;
 }
