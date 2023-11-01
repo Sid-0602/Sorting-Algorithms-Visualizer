@@ -71,7 +71,7 @@ function showBars(move){
 
         if(move && move.indices.includes(i)){
             bar.style.backgroundColor=
-                move.type=="swap" ? "#01fefe":"#8d0000";
+                move.type=="swap" ? "#bb87fd":"#8d0000";
         }
         container.appendChild(bar);
     }

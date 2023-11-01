@@ -60,7 +60,7 @@ body {
     top: 0;
     height: 470%;
     width: 140%;
-    background: #2d6a28;
+    background: #bb87fd;
     -webkit-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
     -webkit-transform: translateX(-100%) translateY(-25%) rotate(45deg);
