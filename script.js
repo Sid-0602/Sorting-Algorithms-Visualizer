@@ -1,4 +1,4 @@
-const n=10;
+const n=25;
 
 const array = [];
 
@@ -11,7 +11,7 @@ for(let i=0;i<array.length;i++){
     //creating an bar:
     const bar = document.createElement("div");
     bar.style.height=array[i]*100+"%"; 
-    bar.style.width="10px";
-    bar.style.backgroundColor="black";
+    bar.classList.add("bar");
+    container.appendChild(bar);
     
 }
