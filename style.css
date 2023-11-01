@@ -1,5 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #15121c;
     font-size: 20px;
     padding: 0 20px 30px 0;
     line-height: 1.4;
@@ -7,6 +8,10 @@ body {
     align-items: center;
     flex-direction: column;
 }
+.title{
+    color: #fefeff;
+}
+
 
 #container{
     height: 200px;
@@ -16,6 +21,53 @@ body {
 
 .bar{
     width:10px;
-    background-color: black;
+    background-color: #fefeff;;
     margin: 1px;
+}
+
+.swappingbars{
+    background-color: red;
+}
+
+
+.button {
+    border: none;
+    display: block;
+    text-align: center;
+    margin: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 15px;
+    background-color:#2c2b3d ;
+    padding: 15px 50px;
+    margin: 0 auto;
+}
+.button span {
+    margin: 20px;
+    position: relative;
+    z-index: 1;
+}
+.button:after {
+    content: "";
+    position: absolute;
+    margin: 20px;
+    left: 0;
+    top: 0;
+    height: 470%;
+    width: 140%;
+    background: #2d6a28;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    -webkit-transform: translateX(-100%) translateY(-25%) rotate(45deg);
+    transform: translateX(-100%) translateY(-25%) rotate(45deg);
+}
+.button:hover:after {
+    margin: 20px;
+    -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+    transform: translateX(-9%) translateY(-25%) rotate(45deg);
 }
