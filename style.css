@@ -23,6 +23,10 @@ body {
     align-items: flex-end;
 }
 
+.algos{
+    display: flex;
+}
+
 .bar{
     width:10px;
     background-color: #fefeff;;
@@ -38,7 +42,7 @@ body {
     border: none;
     display: block;
     text-align: center;
-    margin: 20px;
+    margin:20px;
     cursor: pointer;
     text-transform: uppercase;
     outline: none;
